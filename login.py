@@ -31,7 +31,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # ------------------------ LOGIN ------------------------ #
 programStart = time.time()
-client = LINE("wbq19559@bcaoo.com","123456789pp")
+client = LINE("ripperbotline@gmail.com","0871141346a")
 client.log("Auth Token : " + str(client.authToken))
 client.log("Timeline Token : " + str(client.tl.channelAccessToken))
 clientMid = client.profile.mid
